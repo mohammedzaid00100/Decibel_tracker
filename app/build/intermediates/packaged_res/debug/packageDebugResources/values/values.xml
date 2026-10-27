@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#D9D9D9</color>
+    <color name="splash_background">#D9D9D9</color>
+    <string name="app_name">Decibel Tracker</string>
+    <string name="notification_channel_desc">Shows ongoing sound measurement and recording status</string>
+    <string name="notification_channel_name">Recording &amp; Measurement</string>
+    <string name="notification_recording_text">Live: %1$.1f dB | Time: %2$s</string>
+    <string name="notification_recording_title">Recording Sound Level</string>
+    <string name="notification_stop_action">Stop</string>
+    <style name="Theme.DecibelTracker" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#0F141C</item>
+        <item name="android:navigationBarColor">#0F141C</item>
+        <item name="android:windowBackground">#0F141C</item>
+    </style>
+</resources>

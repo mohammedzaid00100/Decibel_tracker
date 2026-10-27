@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Decibel Tracker</string>
+    <string name="notification_channel_name">Recording &amp; Measurement</string>
+    <string name="notification_channel_desc">Shows ongoing sound measurement and recording status</string>
+    <string name="notification_recording_title">Recording Sound Level</string>
+    <string name="notification_recording_text">Live: %1$.1f dB | Time: %2$s</string>
+    <string name="notification_stop_action">Stop</string>
+</resources>

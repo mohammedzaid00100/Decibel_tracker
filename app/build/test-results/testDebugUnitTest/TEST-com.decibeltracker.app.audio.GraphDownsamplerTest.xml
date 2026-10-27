@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.decibeltracker.app.audio.GraphDownsamplerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-26T23:21:15" hostname="ZAID" time="0.041">
+  <properties/>
+  <testcase name="testDownsample_preservesChronologicalOrderAndPeaks" classname="com.decibeltracker.app.audio.GraphDownsamplerTest" time="0.003"/>
+  <testcase name="testDownsample_smallListReturnsAllPoints" classname="com.decibeltracker.app.audio.GraphDownsamplerTest" time="0.038"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

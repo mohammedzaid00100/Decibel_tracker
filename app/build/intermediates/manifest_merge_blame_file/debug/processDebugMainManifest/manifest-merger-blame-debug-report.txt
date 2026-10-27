@@ -1,0 +1,173 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.decibeltracker.app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:4:5-71
+11-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:4:22-68
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:5:5-77
+12-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:5:22-74
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
+13-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:6:5-88
+13-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:6:22-85
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:7:5-77
+14-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:7:22-74
+15
+16    <permission
+16-->[androidx.core:core:1.15.0] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\68c889df02fa81b233d2e61d5f44f90f\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.decibeltracker.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.15.0] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\68c889df02fa81b233d2e61d5f44f90f\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.15.0] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\68c889df02fa81b233d2e61d5f44f90f\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.decibeltracker.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.15.0] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\68c889df02fa81b233d2e61d5f44f90f\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.15.0] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\68c889df02fa81b233d2e61d5f44f90f\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:9:5-33:19
+23        android:name="com.decibeltracker.app.DecibelTrackerApp"
+23-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:10:9-42
+24        android:allowBackup="true"
+24-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:11:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.15.0] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\68c889df02fa81b233d2e61d5f44f90f\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:icon="@mipmap/ic_launcher"
+28-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:12:9-43
+29        android:label="@string/app_name"
+29-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:13:9-41
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:14:9-54
+31        android:supportsRtl="true"
+31-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:15:9-35
+32        android:theme="@style/Theme.DecibelTracker" >
+32-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:16:9-52
+33        <activity
+33-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:18:9-26:20
+34            android:name="com.decibeltracker.app.ui.MainActivity"
+34-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:19:13-44
+35            android:exported="true"
+35-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:20:13-36
+36            android:launchMode="singleTop" >
+36-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:21:13-43
+37            <intent-filter>
+37-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:22:13-25:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:23:17-69
+38-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:23:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:24:17-77
+40-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:24:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <service
+44-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:28:9-31:58
+45            android:name="com.decibeltracker.app.service.SoundMeterService"
+45-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:29:13-54
+46            android:exported="false"
+46-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:30:13-37
+47            android:foregroundServiceType="microphone" />
+47-->D:\2.Projects\Decibel tracker\app\src\main\AndroidManifest.xml:31:13-55
+48
+49        <provider
+49-->[androidx.emoji2:emoji2:1.3.0] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\0b023880f54e7294259f30410ad8b207\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+50            android:name="androidx.startup.InitializationProvider"
+50-->[androidx.emoji2:emoji2:1.3.0] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\0b023880f54e7294259f30410ad8b207\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+51            android:authorities="com.decibeltracker.app.androidx-startup"
+51-->[androidx.emoji2:emoji2:1.3.0] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\0b023880f54e7294259f30410ad8b207\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+52            android:exported="false" >
+52-->[androidx.emoji2:emoji2:1.3.0] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\0b023880f54e7294259f30410ad8b207\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+53            <meta-data
+53-->[androidx.emoji2:emoji2:1.3.0] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\0b023880f54e7294259f30410ad8b207\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+54                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+54-->[androidx.emoji2:emoji2:1.3.0] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\0b023880f54e7294259f30410ad8b207\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+55                android:value="androidx.startup" />
+55-->[androidx.emoji2:emoji2:1.3.0] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\0b023880f54e7294259f30410ad8b207\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+56            <meta-data
+56-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\440a471932e73e61a5266ec97be44459\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+57-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\440a471932e73e61a5266ec97be44459\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+58                android:value="androidx.startup" />
+58-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\440a471932e73e61a5266ec97be44459\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+60-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+61                android:value="androidx.startup" />
+61-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+62        </provider>
+63
+64        <activity
+64-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\5135a7abf1e02c8435b0856dcb89b4e3\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:23:9-25:39
+65            android:name="androidx.activity.ComponentActivity"
+65-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\5135a7abf1e02c8435b0856dcb89b4e3\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:24:13-63
+66            android:exported="true" />
+66-->[androidx.compose.ui:ui-test-manifest:1.7.5] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\5135a7abf1e02c8435b0856dcb89b4e3\transformed\ui-test-manifest-1.7.5\AndroidManifest.xml:25:13-36
+67        <activity
+67-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\c6f09c1c56b4b46e9f35a165ff5ee9b5\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+68            android:name="androidx.compose.ui.tooling.PreviewActivity"
+68-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\c6f09c1c56b4b46e9f35a165ff5ee9b5\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+69            android:exported="true" />
+69-->[androidx.compose.ui:ui-tooling-android:1.7.5] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\c6f09c1c56b4b46e9f35a165ff5ee9b5\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+70
+71        <service
+71-->[androidx.room:room-runtime:2.6.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\7258ddadb0d116dfd78895716039af16\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+72            android:name="androidx.room.MultiInstanceInvalidationService"
+72-->[androidx.room:room-runtime:2.6.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\7258ddadb0d116dfd78895716039af16\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+73            android:directBootAware="true"
+73-->[androidx.room:room-runtime:2.6.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\7258ddadb0d116dfd78895716039af16\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+74            android:exported="false" />
+74-->[androidx.room:room-runtime:2.6.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\7258ddadb0d116dfd78895716039af16\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+75
+76        <receiver
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+77            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+78            android:directBootAware="false"
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+79            android:enabled="true"
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+80            android:exported="true"
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+81            android:permission="android.permission.DUMP" >
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+83                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+86                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+89                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+92                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\msi laptop\.gradle\caches\8.10.2\transforms\400b565003ac56919bb8efb655f46852\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+93            </intent-filter>
+94        </receiver>
+95    </application>
+96
+97</manifest>

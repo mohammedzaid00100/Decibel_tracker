@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.decibeltracker.app.audio.SoundLevelCalculatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-26T23:21:15" hostname="ZAID" time="0.012">
+  <properties/>
+  <testcase name="testComputeRms_silence" classname="com.decibeltracker.app.audio.SoundLevelCalculatorTest" time="0.002"/>
+  <testcase name="testRmsToDbFs_fullScaleAndSilence" classname="com.decibeltracker.app.audio.SoundLevelCalculatorTest" time="0.005"/>
+  <testcase name="testDbFsToEstimatedSpl_defaultCalibration" classname="com.decibeltracker.app.audio.SoundLevelCalculatorTest" time="0.0"/>
+  <testcase name="testComputeRms_knownSineWave" classname="com.decibeltracker.app.audio.SoundLevelCalculatorTest" time="0.001"/>
+  <testcase name="testEnergyAccumulator_matchesBatchCalculation" classname="com.decibeltracker.app.audio.SoundLevelCalculatorTest" time="0.002"/>
+  <testcase name="testComputeLeq_energyAveraging" classname="com.decibeltracker.app.audio.SoundLevelCalculatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

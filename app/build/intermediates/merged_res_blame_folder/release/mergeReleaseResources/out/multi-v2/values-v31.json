@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.decibeltracker.app-mergeReleaseResources-47:/values-v31/values-v31.xml",
+            "map": [
+                {
+                    "source": "D:\\2.Projects\\Decibel tracker\\app\\src\\main\\res\\values-v31\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "495"
+                    }
+                }
+            ]
+        }
+    ]
+}

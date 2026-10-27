@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.decibeltracker.app.audio.SoundLevelThresholdsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-26T23:21:15" hostname="ZAID" time="0.037">
+  <properties/>
+  <testcase name="testCreateColoredSegments_crossAllThresholdsAscending" classname="com.decibeltracker.app.audio.SoundLevelThresholdsTest" time="0.034"/>
+  <testcase name="testCreateColoredSegments_crossSingleThreshold" classname="com.decibeltracker.app.audio.SoundLevelThresholdsTest" time="0.001"/>
+  <testcase name="testCreateColoredSegments_crossAllThresholdsDescending" classname="com.decibeltracker.app.audio.SoundLevelThresholdsTest" time="0.001"/>
+  <testcase name="testCreateColoredSegments_singleBand" classname="com.decibeltracker.app.audio.SoundLevelThresholdsTest" time="0.0"/>
+  <testcase name="testExactThresholdBoundaries" classname="com.decibeltracker.app.audio.SoundLevelThresholdsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
